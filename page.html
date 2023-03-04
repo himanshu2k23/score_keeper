@@ -15,15 +15,16 @@
             <img src="https://images.unsplash.com/photo-1611762348135-5b09d2f0390d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                 alt="">
             <h1>Ping Pong Score Keeper</h1>
-            <p>SCORE  </p>
-            <p>Enter score to win<input type="number"></p>
+            <p style="display: none;" id="score">SCORE  </p>
+            <p style="display: none;" id="winscore">Enter score to win<input type="number"></p>
             <div id="buttondiv">
-                <button id="player1">PLAYER 1 </button>
-                <button id="reset">NEW</button>
-                <button id="player2">PLAYER 2</button>
+                <button style="display: none;" id="player1">PLAYER 1 </button>
+                <button  id="new">NEW</button>
+                <button style="display: none;" id="player2">PLAYER 2</button>
             </div>
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 
 </html>
